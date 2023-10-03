@@ -8,9 +8,6 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'homepage': "url('/public/assets/backgrounds/gran-barrera-de-coral01.png')"
-      },
       colors: {
         'primary': '#403cc7',
         'secondary': '#ebebff',
