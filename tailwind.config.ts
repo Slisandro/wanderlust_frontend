@@ -9,10 +9,17 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'background-1': "url('/assets/gran-barrera-de-coral0 1.png')"
       },
+      colors: {
+        'primary': '#403cc7',
+        'secondary': '#ebebff',
+        'ternary': '#b0b0d9',
+        'default': '#706cff'
+      },
+      boxShadow: {
+        "default": "4px 4px 6px 0px #4B4B4B70"
+      }
     },
   },
   plugins: [],
