@@ -1,8 +1,11 @@
-import './globals.css'
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import './globals.css';
+import type { Metadata } from 'next';
+import { Lexend } from 'next/font/google';
 
-const inter = Inter({ subsets: ['latin'] })
+const lexend = Lexend({
+  subsets: ['latin'],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"]
+});
 
 export const metadata: Metadata = {
   title: 'Wanderlust'
@@ -18,7 +21,7 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/assets/logo_wanderlust.png" />
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={lexend.className}>{children}</body>
     </html>
   )
 }
