@@ -1,32 +1,5 @@
 import { create } from 'zustand';
-
-export interface Menu {
-    type: 'Vuelos' | 'Alojamiento' | 'Transporte' | 'Turismo',
-    setType: (t: string) => void
-}
-
-export interface Vuelos {
-    type: 'Ida' | 'Vuelta' | 'Ida y Vuelta',
-    setType: (t: string) => void,
-    from: boolean,
-    to: boolean,
-    count: {
-        adult: number,
-        child: number
-    },
-    setCount: (o: { child: number, adult: number }) => void
-}
-
-interface Alojamiento { }
-
-interface Transporte { }
-
-interface Turismo { }
-
-export const useMenu = create((set) => ({
-    type: "Vuelos",
-    setType: (t: string) => set((state: Menu) => ({ type: t }))
-}));
+import Vuelos from './constanst';
 
 export const useVuelos = create((set) => ({
     type: 'Ida',

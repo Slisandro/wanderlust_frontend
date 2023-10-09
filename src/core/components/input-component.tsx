@@ -1,4 +1,4 @@
-export default function Input(
+export default function InputComponent(
     { Icon, placeholder, styleInput, styleContainer, disabled }:
         { Icon?: any, placeholder: string, styleInput: string, styleContainer?: string, disabled: boolean }) {
 
