@@ -10,7 +10,9 @@ export default function NavComponent () {
             height={50}
             priority
           />
-          <button className="border-[4px] border-primary rounded-[50px] px-4 py-2 text-primary font-[600] text-[20px]">Ingresar</button>
+          <button className="border-2 border-primary rounded-[50px] px-4 py-2 text-primary font-[600] text-2xl">
+            Ingresar
+          </button>
         </div>
     )
 }
