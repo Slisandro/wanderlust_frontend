@@ -15,9 +15,14 @@ const config: Config = {
       },
       backgroundImage: {
         'background-1': "url('/assets/gran-barrera-de-coral0 1.png')",
+        // accommodation
         'accommodation-hoteles': "url('/assets/accommodation/Hoteles.png')",
         'accommodation-hostales': "url('/assets/accommodation/Hostales.png')",
         'accommodation-apartamentos': "url('/assets/accommodation/Apartamentos.png')",
+        // transport
+        'transport-automovil': "url('/assets/transport/Automovil.png')",
+        'transport-autobus': "url('/assets/transport/Autobus.png')",
+        'transport-microbus': "url('/assets/transport/Microbus.png')",
       },
       colors: {
         'primary': '#403cc7',
