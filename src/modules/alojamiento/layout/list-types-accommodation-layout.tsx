@@ -9,6 +9,7 @@ function ListTypesAccommodationLayout() {
                 TypeAccommodation.map((accommodation) => {
                     return (
                         <CardAccommodationComponent
+                            key={accommodation.title}
                             title={accommodation.title}
                             description={accommodation.description}
                             styleContainer={"relative flex flex-col items-center justify-start w-[max-content] h-[300px] gap-12"}
