@@ -9,6 +9,7 @@ function ListTypesTransportLayout() {
                 TypeTransport.map((transport) => {
                     return (
                         <CardTransportComponent
+                            key={transport.title}
                             title={transport.title}
                             description={transport.description}
                             styleContainer={"relative flex flex-col items-center justify-start w-[max-content] h-[300px] gap-12"}
