@@ -16,7 +16,7 @@ function CountDropdownPeopleComponent() {
             <button
                 type="button"
                 onClick={handleClick}
-                className="text-large font-[600] uppercase p-[1.25rem] bg-[#EBEBFF] w-[180px] shadow-default text-[#B0B0D9] font-semibold rounded-lg flex items-center justify-between"
+                className="text-large font-[600] p-4 bg-[#EBEBFF] w-[180px] shadow-default text-[#B0B0D9] font-semibold rounded-lg flex items-center justify-between"
                 id="menu-button"
                 aria-expanded="true"
                 aria-haspopup="true"
