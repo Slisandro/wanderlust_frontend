@@ -1,6 +1,6 @@
 export default function InputComponent(
-    { Icon, placeholder, styleInput, styleContainer, disabled }:
-        { Icon?: any, placeholder: string, styleInput: string, styleContainer?: string, disabled: boolean }) {
+    { Icon, placeholder, styleInput, styleContainer, disabled, onChange }:
+        { onChange?: (e: any) => void; Icon?: any, placeholder: string, styleInput: string, styleContainer?: string, disabled: boolean }) {
 
     if (Icon) {
         return (
@@ -11,6 +11,7 @@ export default function InputComponent(
                     placeholder={placeholder}
                     className={styleInput}
                     style={{ opacity: disabled ? ".5" : "1" }}
+                    onChange={onChange}
                 />
             </div>
         )
@@ -22,6 +23,7 @@ export default function InputComponent(
             placeholder={placeholder}
             className={styleInput}
             style={{ opacity: disabled ? ".5" : "1" }}
+            onChange={onChange}
         />
     )
 }
