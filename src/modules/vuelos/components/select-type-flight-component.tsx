@@ -12,7 +12,7 @@ export default function TypeFlightsComponent() {
                 id={"Ida"}
                 key={0}
                 onClick={handleType}
-                className={type === "Ida" ? "border-[2px] font-[600] border-primary text-xl bg-primary rounded-2xl px-4 py-2 text-white" : "border-[2px] font-[600] border-primary text-xl rounded-2xl px-4 py-2 text-primary"}
+                className={type === "Ida" ? "border-[2px] border-primary text-lg bg-primary rounded-2xl px-4 text-white shadow-default" : "border-[2px] border-primary text-lg rounded-2xl px-4 text-primary"}
             >
                 Ida
             </button>
@@ -20,7 +20,7 @@ export default function TypeFlightsComponent() {
                 id={"Ida y Vuelta"}
                 key={1}
                 onClick={handleType}
-                className={type === "Ida y Vuelta" ? "border-[2px] font-[600] border-primary text-xl bg-primary rounded-2xl px-4 py-2 text-white" : "border-[2px] font-[600] border-primary text-xl rounded-2xl px-4 py-2 text-primary"}
+                className={type === "Ida y Vuelta" ? "border-[2px] border-primary text-lg bg-primary rounded-2xl px-4 text-white shadow-default" : "border-[2px] border-primary text-lg rounded-2xl px-4 text-primary"}
             >
                 Ida y Vuelta
             </button>

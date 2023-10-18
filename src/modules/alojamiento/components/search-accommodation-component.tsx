@@ -16,8 +16,8 @@ function SearchAccommodationComponent() {
                 }
                 placeholder={"Buscar ciudad"}
                 disabled={false}
-                styleContainer={"relative flex items-center w-[150px]"}
-                styleInput={"border-2 border-default rounded-[50px] text-default text-large font-[600] py-2 pl-12 w-full outline-none"}
+                styleContainer={"relative flex items-center w-[max-content]"}
+                styleInput={"border-2 border-default rounded-[50px] text-default text-large font-[600] pl-10 outline-none py-2 w-[180px]"}
                 onChange={handleCity}
             />
             {
